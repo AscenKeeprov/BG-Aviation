@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Welcum.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Welcum.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Welcum.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 10pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Welcum.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Welcum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 30</value>
+  </data>
+  <data name="Welcum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 16</value>
+  </data>
+  <data name="Welcum.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Welcum.Text" xml:space="preserve">
+    <value>Здравейте, ученици!</value>
+  </data>
+  <data name="Welcum.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;Welcum.Name" xml:space="preserve">
+    <value>Welcum</value>
+  </data>
+  <data name="&gt;&gt;Welcum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Welcum.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Welcum.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="Intro.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Intro.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Intro.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Intro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 70</value>
+  </data>
+  <data name="Intro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>516, 91</value>
+  </data>
+  <data name="Intro.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Intro.Text" xml:space="preserve">
+    <value>Пред Вас е първа част от тематичната поредица "Знаеш ли кой си?".
+     Чрез тази поредица ще имате възможността да се запознаете с интересни факти и събития от
+българската  история.  Първата кратка  програма е посветена на  българското  авиационно  дело.
+По време на  изпълнение на  програмата ще научите много нови неща и ще трябва да  отговорите 
+на няколко въпроса.  Не се притеснявайте - отговорите не се оценяват. Просто опитайте късмета
+и знанията си и отговорете на въпросите. Независимо дали сте сбъркали или сте познали,
+отговора на въпроса ще се появи на екрана с допълнително обяснение.</value>
+  </data>
+  <data name="Intro.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Intro.Name" xml:space="preserve">
+    <value>Intro</value>
+  </data>
+  <data name="&gt;&gt;Intro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Intro.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Intro.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Ihope.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Ihope.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="Ihope.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 180</value>
+  </data>
+  <data name="Ihope.Size" type="System.Drawing.Size, System.Drawing">
+    <value>342, 14</value>
+  </data>
+  <data name="Ihope.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Ihope.Text" xml:space="preserve">
+    <value>Надявам се, че ще Ви е забавно и ще обогатите знанията си!</value>
+  </data>
+  <data name="&gt;&gt;Ihope.Name" xml:space="preserve">
+    <value>Ihope</value>
+  </data>
+  <data name="&gt;&gt;Ihope.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ihope.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Ihope.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="Lets.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Lets.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Lets.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Lets.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 270</value>
+  </data>
+  <data name="Lets.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 13</value>
+  </data>
+  <data name="Lets.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Lets.Text" xml:space="preserve">
+    <value>А сега - нека се потопим заедно в дебрите на авиацията!</value>
+  </data>
+  <data name="Lets.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomRight</value>
+  </data>
+  <data name="&gt;&gt;Lets.Name" xml:space="preserve">
+    <value>Lets</value>
+  </data>
+  <data name="&gt;&gt;Lets.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lets.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Lets.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="Izlitane.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Izlitane.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="Izlitane.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAadJREFUOE+lk1tL
+        AlEQx7cv5gfw1a9kEWIgPgjR5UF80RcvlBvhg2262WqGZKuBl1KyxWulprLqvznHC5paQgPDcvac+c3M
+        f87ZwbAD4T/GAFs5vgAMVs4KPJht/gaiwFy+CCkcWoEILDj9mKWNLjBaUw16yOeyUJQ4lFhkPUBVGWCM
+        1nubIOQ6+awi6PD5AtA0DTFZWg9oNGq0AbjdHv7FkFrSP3lFg34H4XAYlUplPaCmldDudOH1+iCK4gSw
+        YMdHhzAYDKjXG5s0IGUxQix6hVDoAk5nGX4/ZV8xnf6Qs8oWWhT4gjmGeClkcHrigCQF4XK9bgAxMiWd
+        Cj4Z41ywHs+bfkjBat2DLF/S945a6y/VYzRS/KjOx/8DoOO5WEAgEECz2YSqqrDbD2Cz7cJsTnCIyQSk
+        UqCxRvDR1BYATIcbmQdXq1WUSmXI0Qhvi9n5mQdMUIdjHxaLGYm4sgAgcdjhYFCk4Boi1xKe1HuuC+gi
+        TW4rE5Gtx1OntkZdqoD6yGYySCSSUG5jq4F/vBWBUVqNN2TSyeWMWz6yiYgEmZe6ZeBsct/oE4a7Sd3d
+        PwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="Izlitane.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Izlitane.Location" type="System.Drawing.Point, System.Drawing">
+    <value>505, 335</value>
+  </data>
+  <data name="Izlitane.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="Izlitane.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Izlitane.Text" xml:space="preserve">
+    <value>Излитане</value>
+  </data>
+  <data name="Izlitane.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Izlitane.Name" xml:space="preserve">
+    <value>Izlitane</value>
+  </data>
+  <data name="&gt;&gt;Izlitane.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Izlitane.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Izlitane.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>592, 371</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAQAAAAAADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAgAIAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAC/AAC/AAAAv78AvwAAAL8AvwC/vwAAwMDAAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeAAAAA
+        AAAAAAAAAAAAAAB/f4AAAAAAAAAAAAAAAAAAB/j3gAAAAAAAAAAAAAAAAACPj3+AAAAAAAAAAAAAAAAA
+        B/j394AAAAAAAAAAAAAAAAB/j39/gAAAAAiIiHAAAAAACPj39/eAAIiHd3d3cAAAAAB/j39/eIh3////
+        d3AAAAAAB/j3+Id39P/Mz/cAAAAAAAB/eId39P////z3AAAAAAAACId/9P/////88AAAAAAACId/T///
+        /////wAAAAAACId/T////////wAAAAAACId/T///////8AAAAAAP8Ad/T///////AAAAAAAAB//wD///
+        ///wAH9wAAAAAAB///////8AB/f3gAAAAAAAD/////AAAA+Pf3AAAAAAAH//DwAAAAAH+PeAAAAAAAB/
+        8P8AAAAAAI9/cAAAAAAAf/B/AAAAAAD494AAAAAAAH8AAAAAAAAAD49wAAAAAAB/AAAAAAAAAAj3gAAA
+        AAAAAAAAAAAAAAAAf3AAAAAAAAAAAAAAAAAAAPeAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//////////+f////B////gH///8Af
+        ///gB///8AH+B/gAcAH8AAAA/gAAAP8AAAH/gAAB/4AAA/4AAAf4AAAPkAAAPwAAAP8AAAD/gAAA/4AD
+        AP+AHwD/gH+A/4B/gP+E/8D/h//A/4//4P///+D////x/////////////////w==
+</value>
+  </data>
+  <data name="$this.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Българско авиационно дело</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
